@@ -1,0 +1,14 @@
+folds: 5
+image_size: 512
+backbone: 'efficientnetv2_s'
+pretrained: False
+in_channels: 1
+classes: ['cancer']
+batch_size: 32
+num_workers: 4
+data_folder: 'data/png1152_fromdicom/'
+seed: 42
+lr: 1.0e-4
+weight_decay: 1.0e-6
+accum_iter: 4
+epochs: 5
